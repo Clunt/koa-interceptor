@@ -1,0 +1,30 @@
+{
+  "name": "koa-interceptor",
+  "version": "0.0.2",
+  "description": "An test params for koa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clunt/koa-interceptor.git"
+  },
+  "author": "Clunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clunt/koa-interceptor/issues"
+  },
+  "homepage": "https://github.com/Clunt/koa-interceptor#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "^5.3.0",
+    "lodash": "^4.1.0",
+    "mocha": "^2.4.5",
+    "multiline": "^1.0.2",
+    "should": "^8.2.1",
+    "supertest": "^1.1.0"
+  }
+}
